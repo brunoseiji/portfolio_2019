@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+}
+
+body {
+   font-family: 'Roboto', 'sans-serif';
+}
+
+a {
+   text-decoration: none;
+   color: #333;
+}
+
+.container {
+   width: 1170px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+/*    CABEÇALHO    */
+.cabecalho {
+   background-color: #fff;
+   height: 25vh;
+   display: flex;
+   align-items: flex-end;
+}
+
+.cabecalho nav {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cabecalho ul {
+   display: flex;
+}
+
+.cabecalho ul li a {
+   font-weight: 300;
+   font-size: 12px;
+   margin-left: 15px;
+}
