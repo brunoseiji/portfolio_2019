@@ -7,11 +7,22 @@
 
 body {
    font-family: 'Roboto', 'sans-serif';
+   color: #333;
 }
 
 a {
    text-decoration: none;
-   color: #333;
+}
+
+h2 {
+   font-weight: 300;
+   font-size: 1.3em;
+   margin-bottom: 30px;
+}
+
+p {
+   font-size: 12px;
+   margin-bottom: 10px;
 }
 
 .container {
@@ -23,9 +34,9 @@ a {
 /*    CABEÇALHO    */
 .cabecalho {
    background-color: #fff;
-   height: 25vh;
+   height: 30vh;
    display: flex;
-   align-items: flex-end;
+   align-items: center;
 }
 
 .cabecalho nav {
@@ -41,4 +52,31 @@ a {
    font-weight: 300;
    font-size: 12px;
    margin-left: 15px;
+}
+.cabecalho ul li a:hover {
+   color: #478036;
+}
+
+
+/*    MAIN    */
+.sobre-mim {
+   display: flex;
+   justify-content: space-around;
+}
+
+.sobre-mim-esq {
+   width: 45%;
+   margin: 0 auto;
+   min-height: 500px;
+   padding: 15px;
+}
+
+.sobre-mim-dir {
+   width: 45%;
+   margin:  auto;
+   min-height: 500px;
+   padding: 15px;
+   text-align: center;
+   align-items: center;
+   border: 1px solid #333;
 }
